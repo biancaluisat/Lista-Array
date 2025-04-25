@@ -1,8 +1,5 @@
 let playlist = ['Sunff', 'Homesick', 'Love You Should Come Over', 'No One Notice'];
-let quantidade = playlist.length;
 
-
-
-for(let i = 0; i < quantidade; i++){
+for(let i = 0; i < playlist.length; i++){
     console.log(playlist[i]);
 }

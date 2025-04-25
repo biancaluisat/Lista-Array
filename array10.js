@@ -1,12 +1,8 @@
 let jogos = ['Sally Face', 'Valorant', 'Stardew Valley'];
-let jogoFav = 'Valorant';
+let jogoFav = 'Stardew Valley';
 
 for(let i = 0; i < jogos.length; i++){
-    if(jogoFav === jogos[i]){
+    if(jogoFav == jogos[i]){
         console.log(`o meu jogo favorito é ${jogos[i]} e está na posição ${i + 1}`);
-        break
-    }else{
-        console.log('Meu jogo não está no ranking mas é Sally Face.');
-        break
     }
 }

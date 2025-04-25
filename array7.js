@@ -1,4 +1,4 @@
-let notas = [10, 6, 7, 9];
+let notas = [10, 6, 6.5, 9];
 let i = 0;
 
 while(i < notas.length){
